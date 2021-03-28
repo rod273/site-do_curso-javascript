@@ -117,6 +117,7 @@
      background: var(--white-color);
      padding: 1.5rem 2rem;
      width: 100%;
+     font-size: 2rem;
  }
 
  .group button {
@@ -133,4 +134,8 @@
  .group button:hover {
      background: greenyellow;
      color: black;
+ }
+
+ .group::placeholder {
+     color: var(--light-gray-color);
  }
