@@ -159,3 +159,8 @@
  .footer span {
      color: red;
  }
+
+ .footer P {
+     margin: 0;
+     padding: 3rem;
+ }
