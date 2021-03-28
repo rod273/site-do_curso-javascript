@@ -103,12 +103,19 @@
      gap: var(--gap);
  }
 
+ .form-grid legend {
+     font-style: italic;
+     font-size: 2.6rem;
+     padding-bottom: 2rem;
+ }
+
  .group {
      flex: 1 1 320px;
  }
 
  .group label {
      display: block;
+     margin-bottom: 1rem;
  }
 
  .group input,
@@ -136,6 +143,14 @@
      color: black;
  }
 
- .group::placeholder {
+ .group ::placeholder {
      color: var(--light-gray-color);
+ }
+
+ .footer {
+     text-align: center;
+ }
+
+ .footer a {
+     color: #444;
  }
