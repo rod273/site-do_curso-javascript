@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
  }
  
    /*
@@ -92,4 +93,44 @@
 
  .contact-form {
      grid-column: span 2;
+ }
+
+ .contact-form .form-grid {
+     border: none;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: var(--gap);
+ }
+
+ .group {
+     flex: 1 1 320px;
+ }
+
+ .group label {
+     display: block;
+ }
+
+ .group input,
+ .group textarea {
+     border: none;
+     background: var(--white-color);
+     padding: 1.5rem 2rem;
+     width: 100%;
+ }
+
+ .group button {
+     border: 0.5rem solid var(--white-color);
+     background: none;
+     color: var(--white-color);
+     padding: 1.5rem 2rem;
+     font-size: 3rem;
+     cursor: pointer;
+     border-radius: 1rem;
+     transition: all 300ms ease-in-out;
+ }
+
+ .group button:hover {
+     background: greenyellow;
+     color: black;
  }
