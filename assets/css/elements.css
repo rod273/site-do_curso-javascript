@@ -89,3 +89,7 @@
   table tfoot td, table th {
      background: var(--light-gray-color);
  }
+
+ .contact-form {
+     grid-column: span 2;
+ }
