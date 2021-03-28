@@ -149,8 +149,13 @@
 
  .footer {
      text-align: center;
+     font-size: 1.6rem;
  }
 
  .footer a {
      color: #444;
+ }
+
+ .footer span {
+     color: red;
  }
